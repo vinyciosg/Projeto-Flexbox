@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    width: 100%;
+    height: 500px;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.column-1 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.35s;
+    animation-iteration-count: infinite;
+}
+.column-2 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.34s;
+    animation-iteration-count: infinite;
+}
+.column-3 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.33s;
+    animation-iteration-count: infinite;
+}
+.column-4 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.31s;
+    animation-iteration-count: infinite;
+}
+.column-5 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.29s;
+    animation-iteration-count: infinite;
+}
+.column-6 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.27s;
+    animation-iteration-count: infinite;
+}
+.column-7 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+}
+.column-8 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.23s;
+    animation-iteration-count: infinite;
+}
+.column-9 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.19s;
+    animation-iteration-count: infinite;
+}
+.column-10 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.15s;
+    animation-iteration-count: infinite;
+}
+.column-11 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.1s;
+    animation-iteration-count: infinite;
+}
+.column-12 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.column-13 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 0.99s;
+    animation-iteration-count: infinite;
+}
+.column-14 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 0.96s;
+    animation-iteration-count: infinite;
+}
+.column-15 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 0.92s;
+    animation-iteration-count: infinite;
+}
+.column-16 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 0.89s;
+    animation-iteration-count: infinite;
+}
+.column-17 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 0.85s;
+    animation-iteration-count: infinite;
+}
+.column-18 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+.column-19 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+}
+.column-20 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes column {
+    0% {height: 20%; background-color: #4E0380}
+    5% {height: 24%; background-color: #4E0380}
+    10% {height: 30%; background-color: #4E0380}
+    15% {height: 36%; background-color: #4E0380}
+    20% {height: 40%; background-color: #51037D}
+    25% {height: 43%; background-color: #530379}
+    30% {height: 49%; background-color: #570371}
+    35% {height: 53%; background-color: #600361}
+    40% {height: 58%; background-color: #690352}
+    45% {height: 62%; background-color: #720342}
+    50% {height: 69%; background-color: #7B0333}
+    55% {height: 75%; background-color: #840323}
+    60% {height: 80%; background-color: #950303}
+    65% {height: 73%; background-color: #840323}
+    70% {height: 63%; background-color: #7B0333}
+    75% {height: 54%; background-color: #720342}
+    80% {height: 43%; background-color: #690352}
+    85% {height: 35%; background-color: #600361}
+    90% {height: 27%; background-color: #570371}
+    95% {height: 22%; background-color: #530379}
+    100% {height: 10%; background-color: #51037D}
+}
