@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 
 header {
@@ -75,37 +76,63 @@ nav a:hover {
 
 .texto h1 {
     color: white;
-    font-size: 4em;
+    font-size: 4.7em;
     text-shadow: 1px 1px 0px black;
-    width: 300px;
+    width: 350px;
 }
 
 .texto h2 {
     color: white;
-    font-size: 19px;
+    font-size: 20px;
     text-shadow: 1px 1px 0px black;
-    width: 300px;
-    margin-top: 30px;
+    width: 400px;
+    margin-top: 25px;
+    line-height: 30px;
    
 }
 
 .quadros {
+    display: flex;
     height: 210px;
+    color: white;
+    
+}
 
+.quadro1,
+.quadro2,
+.quadro3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.quadro1 {
+   background-color: #42B3E5;
+   flex-direction: column;
+}
+
+.quadro2 {
+   background-color: #0384CE;
+
+}
+
+.quadro3 {
+   background-color: #3156A3;
+   
+}
+
+.banner-titulo {
+    font-size: 20px;
+}
+
+.banner-texto {
+      font-size: 14px;
+      margin-top: 20px;
+      margin-bottom: 20px;
 }
 
 
 
 
-/* .h1 {
-    font-size: 4em;
-    letter-spacing: 3px;
-    padding-top: 115px;
-}
-
-.paragrafo {
-    font-size: 1.3em;
-    padding-top: 27px;
-} */
 
 
