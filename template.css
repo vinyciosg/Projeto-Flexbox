@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -83,7 +86,7 @@ nav a:hover {
 
 .texto h2 {
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     text-shadow: 1px 1px 0px black;
     width: 400px;
     margin-top: 25px;
@@ -99,11 +102,10 @@ nav a:hover {
 }
 
 .quadro1,
-.quadro2,
-.quadro3 {
+.quadro2 {
     flex: 1;
     color: white;
-    padding: 20px;
+    padding: 25px;
 }
 
 .quadro1 {
@@ -118,11 +120,14 @@ nav a:hover {
 
 .quadro3 {
    background-color: #3156A3;
+   flex: 1;
+   color: white;
+   padding: 25px;
    
 }
 
 .banner-titulo {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .banner-texto {
@@ -130,6 +135,54 @@ nav a:hover {
       margin-top: 20px;
       margin-bottom: 20px;
 }
+
+.botao {
+    width: 100px;
+    border: 1px solid white;
+    padding: 8px;
+}
+
+.quadros a {
+    border: 1px solid white;
+    color: white;
+    display: inline-block;
+    width: 100px;
+    margin-top: 8px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.quadros a:hover {
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.lista {
+    display: flex;
+    
+    
+}
+
+.lista1,
+.lista2,
+.lista3 {
+    width: 300px;
+    padding: 4px;
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.584);
+    margin-top: 15px;
+}
+
+.lista p {
+    width: 100%;
+}
+
+.numero {
+   text-align: right;
+}
+
 
 
 
