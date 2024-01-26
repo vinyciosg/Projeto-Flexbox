@@ -319,3 +319,25 @@ nav a:hover {
     color:  #727272;
 }
 
+.container3 {
+    display: flex;
+    justify-content: center;
+}
+
+/* 
+.container3 {
+    display: flex;
+    justify-content: center;
+    background-color: black ;
+}
+
+.rodape_menu {
+    display: flex;
+    flex: 1;
+}
+
+.fm1,
+.fm2,
+.fm3 {
+    flex: 1;
+} */
