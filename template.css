@@ -10,10 +10,6 @@
     font-weight: lighter;
 }
 
-body {
-    padding-bottom: 300px;
-}
-
 header {
   display: flex;
   justify-content: center;
@@ -327,6 +323,7 @@ footer {
 
 .footer_menu {
     display: flex;
+    flex: 1;
 
 }
 
@@ -349,6 +346,7 @@ footer {
 }
 
 .footer_bloco3 {
+
     background-color: #4163AA;
 }
 
@@ -374,6 +372,19 @@ footer {
     font-size: 20px;
 }
 
+.span1 {
+    display: inline-block;
+    margin-left: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.285);
+    padding: 2px;
+}
+
+.span2 {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.285);
+    padding: 2px;
+}
+
 .footer_bar {
     border: 2px solid  #1086CC;
     width: 55px;
@@ -396,7 +407,6 @@ footer {
     color:  #727272;
     list-style-type: none;
     display: flex;
-    
     font-size: 15px;
 }
 
@@ -411,17 +421,25 @@ footer {
 
 .footer_num3 {
     margin-left: 60px;
+    color: white;
 }
 
 .footer_contas2 img {
-   width: 27px;
-   height: 27px;
+   width: 40px;
+   height: 40px;
    margin-top: 30px;
-   margin-left: 2px;
-   
+}
+
+.post_text {
+    margin-bottom: 20px;
+    line-height: 20px;
 }
 
 
+.botao_blue a {
+    text-decoration: none;
+    color: #7BCAEC;
+}
 
 
 
